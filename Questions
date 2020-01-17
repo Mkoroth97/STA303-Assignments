@@ -1,0 +1,33 @@
+##Q1: a)Is there significant evidence that sex is independent of the student's interest towards video games
+Creat a 2X2 contigency Table to compare sex and like data. 
+This allows us to see if theres a correlation between the two variables. 
+
+##Q1: b) Is there evidence that the association between sex and student's preference for playing video games
+changes with grade expected?
+
+##Q2: Fit two logistic regression models to these data, both with sex and grade as predictor variables. 
+ Model 2.1 be the one to include interaction between sex and grade, and
+ Model 2.2 be the one without interaction.
+
+##Q3: Analysis using Poisson Regression:
+The following table expresses the data as counts of independent students.
+count like sex grade
+31 no female A+
+103 no female not A+
+11 no male A+
+18 no male not A+
+26 yes female A+
+88 yes female not A+
+32 yes male A+
+90 yes male not A+
+
+##Q3: a)Model the counts as Poisson variables and t two models:
+ Model 3.1 with explanatory variables sex, grade and like, the three two-way terms and
+the three-way interaction, and
+ Model 3.2 - Model 3.1 with the three-way interaction term removed
+
+##Q4:Describe how the results from the Poisson regression models compare to
+the results in part 2 under Logistic regression modelling, in terms of:
+i. (5 marks) Deviance
+ii. (5 marks) Wald tests
+iii. (10 marks) Interpretation
